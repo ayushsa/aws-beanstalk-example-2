@@ -17,4 +17,9 @@ public class HelloController {
     public String hello_ayaz() {
         return "Hello TechPrimers Ayaz";
     }
+    
+        @GetMapping("hello_om")
+    public String hello_om() {
+        return "Hello TechPrimers Om";
+    }
 }
