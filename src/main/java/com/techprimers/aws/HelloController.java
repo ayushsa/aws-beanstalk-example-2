@@ -18,13 +18,10 @@ public class HelloController {
         return "Hello Target Two";
     }
     
-        @GetMapping("/three")
+    @GetMapping("/three")
     public String hello_three() {
         return "Hello Target Three";
     }
     
-       @GetMapping("/four")
-    public String hello_four() {
-        return "Hello Target four";
-    }
+      
 }
