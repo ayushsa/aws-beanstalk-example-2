@@ -8,18 +8,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @GetMapping("/hello_ayush")
-    public String hello_ayush() {
-        return "Hello TechPrimers Ayush";
+    @GetMapping("/target_one")
+    public String hello_tone() {
+        return "Hello Target One";
     }
     
-    @GetMapping("hello_ayaz")
-    public String hello_ayaz() {
-        return "Hello TechPrimers Ayaz";
+    @GetMapping("target_two")
+    public String hello_ttwo() {
+        return "Hello Target Two";
     }
     
-        @GetMapping("hello_om")
-    public String hello_om() {
-        return "Hello TechPrimers Om";
+        @GetMapping("target_three")
+    public String hello_tthree() {
+        return "Hello Target Three";
     }
 }
